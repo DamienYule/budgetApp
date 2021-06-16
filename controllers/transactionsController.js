@@ -29,7 +29,7 @@ transactions.delete("/:indexArray", (req, res) => {
     const deletedTransaction = transactionsArray.splice(req.params.indexArray, 1);
     res.json(deletedTransaction);
 });
-
+//test
 
 
 module.exports = transactions
